@@ -206,3 +206,32 @@ INNER JOIN matches
 
 
 
+
+
+
+
+
+
+-- =========================================================================
+-- Query 5: Display a comprehensive list of all users and their booking IDs, ensuring that fans who have never bought a ticket are still listed.
+-- =========================================================================
+
+SELECT
+    users.user_id,
+    users.full_name,
+    bookings.booking_id
+FROM users
+LEFT JOIN bookings
+    ON users.user_id = bookings.user_id;
+
+
+
+
+
+
+
+
+
+
+
+
