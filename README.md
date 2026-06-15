@@ -2,6 +2,10 @@
 
 A simple PostgreSQL database project for managing football matches, users, and ticket bookings. This project demonstrates database design concepts such as table relationships, constraints, data seeding, and SQL queries.
 
+ER Diagram Link: https://drawsql.app/teams/ayansujon/diagrams/ayan-sujon 
+
+
+
 ---
 
 # 📋 Project Overview
